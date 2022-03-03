@@ -35,11 +35,11 @@ int main(int argc, char *argv[])
 			e++;
 		}
 
-		printf("%\n", sum);
+		printf("%d\n", sum);
 	}
 	else
 	{
-		printf("0\");
+		printf("0\n");
 	}
 
 	return (0);
