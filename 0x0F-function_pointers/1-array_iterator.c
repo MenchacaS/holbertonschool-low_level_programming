@@ -1,6 +1,4 @@
 #include "function_pointers.h"
-#include <stdio.h>
-#include <stdlib.h>
 
 /**
  *array_iterator - a machine from the future
@@ -18,6 +16,6 @@ size_t A;
 if (array == NULL || action == NULL)
 return;
 
-for (A = 0; size > A; A--)
+for (A = 0; size > A; A++)
 action(array[A]);
 }
