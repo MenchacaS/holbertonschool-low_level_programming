@@ -3,13 +3,13 @@
 
 /**
   * sum_them_all - dad
-  * @n: n}
+  * @n: n
   *
   * Return: sum
   */
 int sum_them_all(const unsigned int n, ...)
 {
-	
+
 	unsigned int i = 0;
 	int sum = 0;
 	va_list arguments;
